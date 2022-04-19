@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<style>
+.form {
+    inline-size: fit-content;
+    border-style: groove;
+    padding: 10px;
+}
+.formheader {
+    text-align: center;
+    background-color: darkorange;
+    color: white;
+    margin-top: -25px;
+}
+.formregister {
+    inline-size: fit-content;
+    border-style: groove;
+    padding: 10px;
+    background-color: bisque;
+    width: 550px;
+    text-align: left;
+}
+.registerheader {
+    background-color: antiquewhite;
+    color: blue;
+    margin-top: -25px;
+}
+</style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <center>
+        <div class="form">
+            <form>
+                <div class="formheader">
+                    <h1>Sở thích của bạn</h1>
+                </div>
+                <div class="formbody">
+                    <table>
+                        <tr>
+                            <td>
+                                <b style="color: blue;">Họ và tên:</b>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b style="color: blue;">Email:</b>
+                            </td>
+                            <td>
+                                <input type="text" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b style="color: blue;">Sở thích</b>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="thethao" id="">
+                                            <b style="color: orange;">Thể thao</b>
+                                        <td>
+                                            <input type="checkbox" name="amnhac" id="">
+                                            <b style="color: orange;">Âm nhạc</b>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="docsach" id="">
+                                            <b style="color: orange;">Đọc sách</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="luotweb" id="">
+                                            <b style="color: orange;">Lướt web</b>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="choigame" id="">
+                                            <b style="color: orange;">Chơi game</b>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" name="dienanh" id="">
+                                            <b style="color: orange;">Điện ảnh</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="dulich" id="">
+                                            <b style="color: orange;">Du lịch</b>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><input type="submit" value="Gửi thông tin"></td>
+                                        <td><input type="reset" value="Nhập lại"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+        <div class="formregister">
+            <div class="registerheader">
+                <h1>student registration</h1>
+            </div>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <b>Full Name</b>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Day of birth</b>
+                        </td>
+                        <td>
+                            <input type="date" name="birthday" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Gender</b>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"><label for="radio">Male</label>
+                            <input type="radio" name="gender" value="Female"><label for="radio">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Address</b>
+                        </td>
+                        <td>
+                            <textarea name="address" id="" cols="25" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Class</b>
+                        </td>
+                        <td>
+                            <select name="class" id="">
+                                <option value="a1">class</option>
+                                <option value="a2">BW2203R1</option>
+                                <option value="a3">BW2203R2</option>
+                                <option value="a4">BW2203R3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Email</b>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Phone number</b>
+                        </td>
+                        <td>
+                            <input type="number" name="phone" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <input type="submit" value="Register">
+                            <input type="reset" value="Retry">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+    
+    
+    
+</body>
+</html>

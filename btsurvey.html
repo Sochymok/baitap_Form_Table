@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .survey {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+    <form action="" class="survey">
+        <hr>
+        <h1>Research Survey</h1>
+        <p>please take a few</p>
+        <b>What is your age range?</b>
+        <br>
+        <select name="age" style="width: 300px;">
+            <option value="1">18-24</option>
+            <option value="1">24-30</option>
+            <option value="1">30-50</option>
+        </select>
+        <br>
+        <b>What is your yearly income range?</b>
+        <br>
+        <select name="income" style="width: 300px;">
+            <option value="1">$0 - $25,000</option>
+            <option value="1">$25,000 - $50,000</option>
+            <option value="1">$50,000 - $100,00</option>
+        </select>
+        <br>
+        <br>
+        <b>Gender</b>
+        <br>
+        <input type="radio" name="gender" id="gender1"><label for="gender1">Male</label>
+        <br>
+        <input type="radio" name="gender" id="gender2"><label for="gender2">Female</label>
+        <br>
+        <br>
+        <b>Product</b>
+        <br>
+        <input type="checkbox" name="product" id="product1"><label for="product1">Product 1</label>
+        <br>
+        <input type="checkbox" name="product" id="product2"><label for="product2">Product 2</label>
+        <br>
+        <input type="checkbox" name="product" id="product3"><label for="product3">Product 3</label>
+        <br><br>
+        <b>How often would you use our new product?</b>
+        <br>
+        <input type="radio" name="protime"><label for="radio">Daily</label><br>
+        <input type="radio" name="protime"><label for="radio">Weekly</label><br>
+        <input type="radio" name="protime"><label for="radio">Monthly</label><br>
+        <br>
+        <b>What would you pay for the new product</b>
+        <table>
+            <tr>
+                <td>
+                    $
+                </td>
+                <td>
+                    <input type="number" style="width: 80px;">
+                </td>
+                <td>.</td>
+                <td>
+                    <input type="number"style="width: 10px;">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><small>Dollars</small></td>
+                <td></td>
+                <td><small>Cents</small></td>
+            </tr>
+        </table>
+        <br>
+        <b>Features</b>
+        <br>
+        <textarea name="" id="" cols="100" rows="10"></textarea><br>
+        <small>please rate</small> 
+        <br>
+        <table style="text-align: center;">
+            <tr>
+                <td style="background-color: aquamarine;"></td>
+                <td style="width: 150px; background-color: aquamarine;"><small>Strongly Disagree</small></td>
+                <td style="width: 150px; background-color: aquamarine;"><small>Disagree</small></td>
+                <td style="width: 150px; background-color: aquamarine;"><small>Agree</small></td>
+                <td style="width: 150px; background-color: aquamarine;"><small>Strongly Agree</small></td>
+            </tr>
+            <tr>
+                <td><b>Our products are priced fairly.</b></td>
+                <td><input type="radio" name="row1" ><br>1</td>
+                <td><input type="radio" name="row1" ><br>2</td>
+                <td><input type="radio" name="row1" ><br>3</td>
+                <td><input type="radio" name="row1" ><br>4</td>
+            </tr>
+            <tr>
+                <td><b>Our products are high quality.</b></td>
+                <td><input type="radio" name="row2" ><br>1</td>
+                <td><input type="radio" name="row2" ><br>2</td>
+                <td><input type="radio" name="row2" ><br>3</td>
+                <td><input type="radio" name="row2" ><br>4</td>
+            </tr>
+            <tr>
+                <td><b>You would recommend our product to a friend or coworker.</b></td>
+                <td><input type="radio" name="row3" ><br>1</td>
+                <td><input type="radio" name="row3" ><br>2</td>
+                <td><input type="radio" name="row3" ><br>3</td>
+                <td><input type="radio" name="row3" ><br>4</td>
+            </tr>
+            
+        </table>
+        <input type="submit" value="Submit" style="width: 100px;">
+
+    </form>
+</body>
+</html>
